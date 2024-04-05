@@ -2,7 +2,7 @@ import express from "express";
 import {dirname} from "path";
 import {fileURLToPath} from "url";
 import nodemailer from "nodemailer";
-import {USER, PASS, FrontendURL} from "./[locale]/constants.mjs";
+import {USER, PASS, FrontendURL} from "../[locale]/constants.mjs";
 
 const configNodeMailer = {
   host: "smtp.yandex.ru",
