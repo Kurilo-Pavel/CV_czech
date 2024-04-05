@@ -1,0 +1,73 @@
+{
+  "Button": {
+    "title": "Download CV"
+  },
+  "About_me": {
+    "mainTitle": "About",
+    "subTitle": "me",
+    "text": "As a Frontend developer, I have the knowledge and skills necessary to create interactive and visually attractive web interfaces. My work consists of developing the front-end parts of websites and applications, teaching myself about modern technologies and best practices in the field of front-end development.",
+    "ageTitle": "Age:",
+    "addressTitle": "Address:",
+    "address": "Belarus, Grodno",
+    "phoneTitle": "Phone:",
+    "sectionTitle": "What",
+    "sectionSubTitle": "I do",
+    "titleDevelop": "User interface development",
+    "contentDevelop": "Create visual components of a web page or application, including layouts, navigation, and interactive elements, using HTML, CSS, and JavaScript.",
+    "titleOptimization": "Optimization for mobile devices",
+    "contentOptimization": "Adaptation of design for different screen sizes and resolutions to ensure correct display and ease of use on smartphones and tablets.",
+    "titleApi": "Interaction with API",
+    "contentApi": "Integration of the client part of the application with server APIs for data exchange and functionality.",
+    "titleUpdate": "Update and support",
+    "contentUpdate": "Regularly updating websites and applications to introduce new features and fix bugs.",
+    "titlePartnership": "Collaboration with designers and backend developers",
+    "contentPartnership": "Collaborate with team members to ensure consistency and functionality of the project.",
+    "titleStudying": "Study and application of new technologies",
+    "contentStudying": "Continuous training to improve skills and introduce new tools and techniques into the development process.",
+    "titleTesting": "Testing and Debugging",
+    "contentTesting": "Checking the code for errors, fixing any problems found, and ensuring that it works correctly in different browsers and on different devices.",
+    "titleStandard": "Compliance with standards and accessibility",
+    "contentStandard": "Design to meet web development standards and ensure content is accessible to users with disabilities."
+  },
+  "My_card": {
+    "myName": "Kurilo Pavel",
+    "mySpeciality": "Frontend Developer"
+  },
+  "Menu": {
+    "home": "Home",
+    "aboutMe": "About me",
+    "resume": "Resume",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "next": "Next",
+    "prev": "Prev"
+  },
+  "Contact": {
+    "sectionMainTitle": "How Can I",
+    "sectionSubTitle": "Help You",
+    "login": "Login",
+    "message": "Message",
+    "button": "Send",
+    "errorLogin": "login wrong",
+    "errorMessage": "message wrong",
+    "errorEmail": "email wrong"
+  },
+  "Resume": {
+    "education": "Education",
+    "march": "March ",
+    "september": "September ",
+    "february": "February ",
+    "academy": "IT-Academy Grodno",
+    "HTML": "Web development using HTML, Css and JavaScript",
+    "JS": "Web application development using JavaScript",
+    "React": "Web application development using React.js",
+    "Node": "Node.js",
+    "titleSkills": "My",
+    "subTitleSkills": "Skills",
+    "titleWork": "Work",
+    "subTitleWork": "with"
+  },
+  "Loading": {
+    "title": "Loading ..."
+  }
+}

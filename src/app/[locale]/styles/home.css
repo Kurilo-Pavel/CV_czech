@@ -1,0 +1,24 @@
+.home__section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.home__name {
+  font-size: 4rem;
+  color: #F5F5F5;
+  text-align: center;
+}
+
+.home__profession {
+  font-size: 2rem;
+  text-align: center;
+  color: #9A9A9A;
+}

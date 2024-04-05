@@ -1,0 +1,29 @@
+.language {
+  display: flex;
+  gap: 0.2rem;
+  padding: 1rem;
+}
+
+.language__button {
+  padding: 0.5rem 1rem;
+  background: #444444;
+  border: 2px solid #F5F5F5;
+  color: #F5F5F5;
+  cursor: pointer;
+}
+
+.language__button:first-child {
+  border-radius: 1rem 0 0 1rem;
+}
+
+.language__button:last-child {
+  border-radius: 0 1rem 1rem 0;
+}
+
+.language__button:hover {
+  background: #696767;
+}
+
+.language__button_active {
+  background: #696767;
+}
