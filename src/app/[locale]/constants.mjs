@@ -1,4 +1,7 @@
-const FrontendURL = "http://localhost:3000";
+// const FrontendURL = "http://localhost:3000";
+// const Url = "http://localhost:7780";
+const FrontendURL = "https://cv-kurilo-pavel.onrender.com";
+const Url = "https://cv-acvq.onrender.com";
 let BlockSection = [
   "Home",
   "About me",
@@ -8,7 +11,6 @@ let BlockSection = [
 ];
 const USER = "pkuryla";
 const PASS = "hcarfnblkzgbehrs"
-const Url = "http://localhost:7780";
 const Duration = 1000;
 const Delay = 0;
 
