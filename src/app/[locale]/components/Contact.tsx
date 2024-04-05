@@ -12,7 +12,7 @@ import Input from "@/app/[locale]/components/Input";
 import TextArea from "@/app/[locale]/components/TextArea";
 import {useState} from "react";
 import Modal from "@/app/[locale]/components/Modal";
-import {useTranslations} from "next-intl";
+import {useLocale, useTranslations} from "next-intl";
 
 interface FormValues {
   login: string;
@@ -25,9 +25,9 @@ interface FormErrors {
 }
 
 const Contact = () => {
-  const menu=useTranslations("Menu");
-  const contact=useTranslations("Contact");
-
+  const menu = useTranslations("Menu");
+  const contact = useTranslations("Contact");
+  const locale = useLocale();
   const initialValues: FormValues = {
     login: "",
     email: "",
@@ -37,7 +37,7 @@ const Contact = () => {
   const [isEmail, setIsEmail] = useState(false);
   const [isMessage, setIsMessage] = useState(false);
   const [isModal, setIsModal] = useState(false);
-  const [textModal,setTextModal] = useState("");
+  const [textModal, setTextModal] = useState("");
 
   return <div className="section contact__section" data-value="Contact">
     <Title className="title title_color" mainText={menu("contact")}/>
@@ -84,7 +84,8 @@ const Contact = () => {
             return errors;
           }}
           onSubmit={async (values: FormValues) => {
-            const response = await fetch(Url + "/message", {
+
+            const response = await fetch(Url + "/message/"+locale, {
               method: "POST",
               body: JSON.stringify(values)
             });

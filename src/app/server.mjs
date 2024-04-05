@@ -1,6 +1,5 @@
 import express from "express";
-import fs from "fs";
-import path, {dirname} from "path";
+import {dirname} from "path";
 import {fileURLToPath} from "url";
 import nodemailer from "nodemailer";
 import {USER, PASS, FrontendURL} from "./[locale]/constants.mjs";
@@ -22,19 +21,30 @@ const port = 7780;
 
 server.get("/downloadCV/:locale", (request, response) => {
   response.setHeader("Access-Control-Allow-Origin", `${FrontendURL}`);
-  // const readStream = fs.createReadStream(path.join(__dirname, "CV.txt"))
-  // readStream.pipe(response)
-  // readStream.on("end", () => {
-  //   console.log("finish")
-  // })
-  const locale= request.params.locale
+  const locale = request.params.locale;
 
-  response.sendFile(__dirname+`/Kurilo_Pavel_${locale}.pdf`)
+  response.sendFile(__dirname + `/Kurilo_Pavel_${locale}.pdf`);
 });
 
-server.post("/message", express.json({type: "*/*"}), (request, response) => {
+server.post("/message/:locale", express.json({type: "*/*"}), (request, response) => {
   response.setHeader("Access-Control-Allow-Origin", `${FrontendURL}`);
 
+  const locale = request.params.locale;
+  let error, text;
+  switch (locale) {
+    case "en":
+      error = "Sorry, the letter wasn't sent";
+      text = "Thank you, your letter has been sent";
+      break;
+    case "ru":
+      error = "Извените, Ваше обращение не отправлено";
+      text = "Спасибо, Ваше обращение доставлено";
+      break;
+    case "pl":
+      error = "Przepraszamy, list nie został wysłany";
+      text = "Dziękujemy, Twój list został wysłany";
+      break;
+  }
   const userData = {email: request.body.email, login: request.body.login, message: request.body.message};
 
   const transporter = nodemailer.createTransport(configNodeMailer);
@@ -50,9 +60,9 @@ server.post("/message", express.json({type: "*/*"}), (request, response) => {
   };
   transporter.sendMail(message, err => {
     if (err) {
-      response.status(401).send({message: "Sorry, the letter wasn't sent"});
+      response.status(401).send({message: error});
     } else {
-      response.send({message: `Thank you, your letter has been sent`});
+      response.send({message: text});
     }
   });
 });

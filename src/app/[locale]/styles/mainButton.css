@@ -71,4 +71,12 @@
     opacity: 0.7;
     z-index: 1;
   }
+  
+  .arrow__text_hidden {
+    animation: none;
+  }
+  
+  .mainButton__section:not([disabled]):hover > .arrow__text_hidden {
+    animation: none;
+  }
 }
