@@ -26,6 +26,14 @@ server.get("/downloadCV/:locale", (request, response) => {
   response.sendFile(__dirname + `/Kurilo_Pavel_${locale}.pdf`);
 });
 
+server.options('/*', (req, res) => {
+  res.setHeader("Access-Control-Allow-Origin", `${FrontendURL}`);
+  res.setHeader("Access-Control-Allow-Credentials", "true");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  res.setHeader("Access-Control-Allow-Methods", "GET,POST");
+  res.send("");
+});
+
 server.post("/message/:locale", express.json({type: "*/*"}), (request, response) => {
   response.setHeader("Access-Control-Allow-Origin", `${FrontendURL}`);
 
