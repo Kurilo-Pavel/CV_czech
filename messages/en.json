@@ -45,12 +45,12 @@
   "Contact": {
     "sectionMainTitle": "How Can I",
     "sectionSubTitle": "Help You",
-    "login": "Login",
+    "login": "Name",
     "message": "Message",
     "button": "Send",
-    "errorLogin": "login wrong",
-    "errorMessage": "message wrong",
-    "errorEmail": "email wrong"
+    "errorLogin": "Invalid name",
+    "errorMessage": "Invalid message",
+    "errorEmail": "Invalid email"
   },
   "Resume": {
     "education": "Education",

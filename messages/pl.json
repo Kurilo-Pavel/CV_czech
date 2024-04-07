@@ -30,7 +30,7 @@
     "contentStandard": "Projektuj tak, aby spełniał standardy tworzenia stron internetowych i zapewniał dostępność treści dla użytkowników niepełnosprawnych."
   },
   "My_card": {
-    "myName": "Kuryło Paweł",
+    "myName": "Kurilo Pavel",
     "mySpeciality": "Programista frontendowy"
   },
   "Menu": {
@@ -45,12 +45,12 @@
   "Contact": {
     "sectionMainTitle": "Jak mogę",
     "sectionSubTitle": "Ci pomóc",
-    "login": "Login",
-    "message": "Posłanie",
+    "login": "Imię",
+    "message": "Wiadomość",
     "button": "Posłać",
-    "errorLogin": "Nieprawidłowy login",
-    "errorMessage": "Nieprawidłowa posłanie",
-    "errorEmail": "Nieprawidłowy email"
+    "errorLogin": "Imię błędne",
+    "errorMessage": "Wiadomość błędna",
+    "errorEmail": "Błędny e-mail"
   },
   "Resume": {
     "education": "Edukacja",
