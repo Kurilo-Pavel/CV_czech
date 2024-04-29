@@ -1,7 +1,7 @@
-const FrontendURL = "http://localhost:3000";
+// const FrontendURL = "http://localhost:3000";
 const Url = "http://localhost:7780";
 // const FrontendURL = "https://cv-kurilo-pavel.onrender.com";
-// const FrontendURL = "https://nextjs.netlify.app";
+const FrontendURL = "https://nextjs.netlify.app";
 // const Url = "https://cv-syxi.onrender.com";
 let BlockSection = [
   "Home",
