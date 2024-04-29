@@ -43,9 +43,8 @@ const Contact = () => {
     <Title className="title title_color" mainText={menu("contact")}/>
     <div className="contact__content">
       <div className="contact__column">
-        <ContactCard image="/icons/message" contact="kurilo.pavel8@gmail.com" link="mailto:kurilo.pavel8@gmail.com"/>
-        <ContactCard image="/icons/phone" contact="+375 29 7839712" link="tel:+375297839712"/>
-        <ContactCard image="/icons/telegram" contact="it_pavel_k" link="https://t.me/it_pavel_k"/>
+        <ContactCard image="/icons/message" contact="externiajtak@gmail.com" link="mailto:externiajtak@gmail.com"/>
+        <ContactCard image="/icons/phone" contact="+420 732 626 806" link="tel:+420 732 626 806"/>
       </div>
       <div className="contact__column">
         <Title

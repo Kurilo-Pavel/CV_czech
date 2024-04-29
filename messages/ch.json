@@ -1,73 +1,73 @@
 {
   "Button": {
-    "title": "Pobierz CV"
+    "title": "Stáhněte si životopis"
   },
   "About_me": {
     "mainTitle": "O",
-    "subTitle": "mnie",
-    "text": "Jako programista Frontend posiadam wiedzę i umiejętności niezbędne do tworzenia interaktywnych i atrakcyjnych wizualnie interfejsów webowych. Moja praca polega na tworzeniu frontendowych części stron internetowych i aplikacji, poznawaniu nowoczesnych technologii i najlepszych praktyk z zakresu front-end developmentu.",
-    "ageTitle": "Wiek:",
-    "addressTitle": "Adres:",
-    "address": "Białoruś, Grodno",
+    "subTitle": "mně",
+    "text": "Jako vývojář frontendu mám znalosti a dovednosti potřebné k vytváření interaktivních a vizuálně atraktivních webových rozhraní. Moje práce spočívá ve vývoji front-end částí webových stránek a aplikací, ve výuce moderních technologií a osvědčených postupů v oblasti front-end developmentu.",
+    "ageTitle": "Stáří:",
+    "addressTitle": "Adresa:",
+    "address": "Brno, Česká republika",
     "phoneTitle": "Telefon:",
     "sectionTitle": "Co",
-    "sectionSubTitle": "Ja robię",
-    "titleDevelop": "Rozwój interfejsu użytkownika",
-    "contentDevelop": "Twórz wizualne komponenty strony internetowej lub aplikacji, w tym układy, nawigację i elementy interaktywne, używając HTML, CSS i JavaScript.",
-    "titleOptimization": "Optymalizacja dla urządzeń mobilnych",
-    "contentOptimization": "Dostosowanie projektu do różnych rozmiarów i rozdzielczości ekranów, aby zapewnić prawidłowe wyświetlanie i łatwość obsługi na smartfonach i tabletach.",
-    "titleApi": "Interakcja z API",
-    "contentApi": "Integracja części klienckiej aplikacji z API serwera w celu wymiany danych i funkcjonalności.",
-    "titleUpdate": "Aktualizuj i wspieraj",
-    "contentUpdate": "Regularna aktualizacja stron internetowych i aplikacji w celu wprowadzenia nowych funkcji i naprawienia błędów.",
-    "titlePartnership": "Współpraca z projektantami i programistami backendowymi",
-    "contentPartnership": "Współpraca z członkami zespołu w celu zapewnienia spójności i funkcjonalności projektu.",
-    "titleStudying": "Badanie i zastosowanie nowych technologii",
-    "contentStudying": "Ciągłe szkolenia mające na celu doskonalenie umiejętności oraz wprowadzanie nowych narzędzi i technik w procesie rozwoju.",
-    "titleTesting": "Testowanie i debugowanie",
-    "contentTesting": "Sprawdzanie kodu pod kątem błędów, naprawianie wykrytych problemów i upewnianie się, że działa on poprawnie w różnych przeglądarkach i na różnych urządzeniach.",
-    "titleStandard": "Zgodność ze standardami i dostępność",
-    "contentStandard": "Projekty takie, by spełniały standardy tworzenia stron internetowych i zapewniały dostępność treści dla użytkowników niepełnosprawnych."
+    "sectionSubTitle": "dělám",
+    "titleDevelop": "Vývoj uživatelského rozhraní",
+    "contentDevelop": "Vytvářejte vizuální komponenty webové stránky nebo aplikace, včetně rozvržení, navigace a interaktivních prvků, pomocí HTML, CSS a JavaScriptu.",
+    "titleOptimization": "Optimalizace pro mobilní zařízení",
+    "contentOptimization": "Přizpůsobení designu pro různé velikosti obrazovky a rozlišení pro zajištění správného zobrazení a snadného použití na chytrých telefonech a tabletech.",
+    "titleApi": "Interakce s API",
+    "contentApi": "Integrace klientské části aplikace se serverovými API pro výměnu dat a funkčnost.",
+    "titleUpdate": "Aktualizace a podpora",
+    "contentUpdate": "Pravidelně aktualizujte webové stránky a aplikace, abyste zavedli nové funkce a opravili chyby.",
+    "titlePartnership": "Spolupráce s designéry a backendovými vývojáři",
+    "contentPartnership": "Spolupracujte se členy týmu, abyste zajistili konzistenci a funkčnost projektu.",
+    "titleStudying": "Studium a aplikace nových technologií",
+    "contentStudying": "Průběžné školení ke zlepšení dovedností a zavedení nových nástrojů a technik do procesu rozvoje.",
+    "titleTesting": "Testování a ladění",
+    "contentTesting": "Kontrola chyb v kódu, oprava všech nalezených problémů a zajištění správného fungování v různých prohlížečích a na různých zařízeních.",
+    "titleStandard": "Soulad se standardy a dostupnost",
+    "contentStandard": "Navrhněte tak, aby splňovaly standardy vývoje webu a zajistily, že obsah bude přístupný uživatelům se zdravotním postižením."
   },
   "My_card": {
-    "myName": "Kurilo Pavel",
-    "mySpeciality": "Programista frontendowy"
+    "myName": "Další dodavatel JS",
+    "mySpeciality": "Frontend Developer"
   },
   "Menu": {
-    "home": "Dom",
-    "aboutMe": "O mnie",
-    "resume": "Podsumowanie",
+    "home": "Domov",
+    "aboutMe": "O mně",
+    "resume": "Životopis",
     "portfolio": "Portfolio",
     "contact": "Kontakt",
-    "next": "Dalszy",
-    "prev": "Wstecz"
+    "next": "Další",
+    "prev": "Před"
   },
   "Contact": {
-    "sectionMainTitle": "Jak mogę",
-    "sectionSubTitle": "Ci pomóc",
-    "login": "Imię",
-    "message": "Wiadomość",
-    "button": "Posłać",
-    "errorLogin": "Imię błędne",
-    "errorMessage": "Wiadomość błędna",
-    "errorEmail": "Błędny e-mail"
+    "sectionMainTitle": "Jak mohu",
+    "sectionSubTitle": "Pomoci ti",
+    "login": "Jméno",
+    "message": "Zpráva",
+    "button": "Poslat",
+    "errorLogin": "Neplatné jméno",
+    "errorMessage": "Neplatná zpráva",
+    "errorEmail": "Neplatný e-mail"
   },
   "Resume": {
-    "education": "Edukacja",
-    "march": "Marsz ",
-    "september": "Wrzesień ",
-    "february": "Luty ",
-    "academy": "Akademia Informatyczna Grodno",
-    "HTML": "Tworzenie stron internetowych z wykorzystaniem HTML, CSS i JavaScript",
-    "JS": "Tworzenie aplikacji internetowych za pomocą JavaScript",
-    "React": "Reaguj na rozwój aplikacji internetowych",
+    "education": "Vzdělání",
+    "march": "Březen ",
+    "september": "Září ",
+    "february": "Únor ",
+    "academy": "IT-Akademie Brno",
+    "HTML": "Vývoj webu pomocí HTML, CSS a JavaScriptu",
+    "JS": "Vývoj webových aplikací pomocí JavaScriptu",
+    "React": "Vývoj webových aplikací pomocí React.js",
     "Node": "Node.js",
-    "titleSkills": "Móje",
-    "subTitleSkills": "umiejętności",
-    "titleWork": "Ja pracuję",
-    "subTitleWork": "z"
+    "titleSkills": "Mé",
+    "subTitleSkills": "Schopnosti",
+    "titleWork": "Pracovat",
+    "subTitleWork": "s"
   },
   "Loading": {
-    "title": "Ładowanie ..."
+    "title": "Načítání ..."
   }
 }

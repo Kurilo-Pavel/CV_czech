@@ -24,20 +24,13 @@ const AboutMe = () => {
       </p>
       <p className="aboutMe__list partTitle_color text">
         e-mail:
-        <a href="mailto:kurilo.pavel8@gmail.com" className="text_color link">kurilo.pavel8@gmail.com</a>
+        <a href="mailto:externiajtak@gmail.com" className="text_color link">externiajtak@gmail.com</a>
       </p>
       <p className="aboutMe__list partTitle_color text">
         {translate("phoneTitle")}
-        <a href="tel:+375297839712" className="text_color link">+375 29 7839712</a>
+        <a href="tel:+420 732 626 806" className="text_color link">+420 732 626 806</a>
       </p>
-      <p className="aboutMe__list partTitle_color text">
-        Telegram:
-        <a href="https://t.me/it_pavel_k" className="text_color link">it_pavel_k</a>
-      </p>
-      <p className="aboutMe__list partTitle_color text">
-        Github:
-        <a href="https://github.com/Kurilo-Pavel" className="text_color link">github.com/Kurilo-Pavel</a>
-      </p>
+
     </div>
     <div className="aboutMe__action">
       <Title
