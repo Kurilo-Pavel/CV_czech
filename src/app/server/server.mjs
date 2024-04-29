@@ -36,13 +36,13 @@ server.post("/message/:locale", express.json({type: "*/*"}), (request, response)
       error = "Sorry, the letter wasn't sent";
       text = "Thank you, your letter has been sent";
       break;
-    case "ru":
-      error = "Извените, Ваше обращение не отправлено";
-      text = "Спасибо, Ваше обращение доставлено";
+    case "ch":
+      error = "Omlouváme se, dopis nebyl odeslán";
+      text = "Děkuji, váš dopis byl odeslán";
       break;
-    case "pl":
-      error = "Przepraszamy, list nie został wysłany";
-      text = "Dziękujemy, Twój list został wysłany";
+    case "de":
+      error = "Entschuldigung, der Brief wurde nicht gesendet";
+      text = "Vielen Dank, Ihr Brief wurde gesendet";
       break;
   }
   const userData = {email: request.body.email, login: request.body.login, message: request.body.message};

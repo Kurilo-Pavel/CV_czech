@@ -7,7 +7,7 @@ const nextConfig = {
   async headers() {
     return [
       {
-        source: "/(ru|en|pl)/:path*",
+        source: "/(ch|en|de)/:path*",
         headers: [
           {key: "Access-Control-Allow-Credentials", value: "true"},
           {key: "Access-Control-Allow-Origin", value: `${FrontendURL}`},

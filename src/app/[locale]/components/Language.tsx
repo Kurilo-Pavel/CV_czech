@@ -20,9 +20,9 @@ const Language = ({setIsOpen}: LanguageProps) => {
   };
 
   return <div className="language">
-    <LanguageButton changeLanguage={changeLanguage} text="ru"/>
+    <LanguageButton changeLanguage={changeLanguage} text="ch"/>
     <LanguageButton changeLanguage={changeLanguage} text="en"/>
-    <LanguageButton changeLanguage={changeLanguage} text="pl"/>
+    <LanguageButton changeLanguage={changeLanguage} text="de"/>
   </div>
 };
 export default Language;
